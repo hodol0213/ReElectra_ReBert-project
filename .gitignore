@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# 대용량 데이터셋
+*.zip
+datasets/
+*.csv
+*.tsv
+
+# VS Code
+.vscode/
+
+# 모델 학습 관련 임시 파일
+*.log
+runs/
+outputs/
+
+# 기타
+.DS_Store
